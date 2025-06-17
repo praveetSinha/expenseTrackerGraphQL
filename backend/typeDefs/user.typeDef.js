@@ -14,7 +14,7 @@ const userTypeDef = `#graphql
     user(userId:ID!): User
   }
 
-  //after : we have the response back to the user,! shows required
+  
   type Mutation {
     signUp(input: SignUpInput!): User
     login(input: LoginInput!): User
